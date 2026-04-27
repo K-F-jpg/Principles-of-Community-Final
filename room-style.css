@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 6em;
+    /* padding-bottom: 8em; */
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* background-image: url(MEDIA/usuhana.png); background-size: cover; background-position: center; background-repeat: no-repeat; */
+}
+.shelf {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid orange; */
+    width: 70%;
+    height: .5em;
+    position: relative;
+    background-image: url(MEDIA/light-oak-wood.webp); background-size: cover; background-position: center; background-repeat: no-repeat;
+    justify-content: space-between;
+    box-shadow: 0px 4px 7px black;
+    z-index: 2;
+}
+.supports-1 {
+    position: absolute;
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    top: .5em;
+    left: 1em;
+    background-image: url(MEDIA/metal-texture.avif); background-size: cover; background-position: center; background-repeat: no-repeat;
+    z-index: 1;
+}
+.supports-2 {
+    position: absolute;
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    top: .5em;
+    right: 1em;
+    background-image: url(MEDIA/metal-texture.avif); background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+
+@keyframes larger {
+    0% {transform: scale(100%);}
+    100% {transform: scale(120%);}
+}
+
+.content-box {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid blue; */
+    width: auto;
+    height: auto;
+    position: absolute;
+    /* top: -.35em; */
+    bottom: .5em;
+} .content-box:hover {
+    animation: larger .1s ease-in-out;
+    transform: scale(120%);
+    filter: drop-shadow(0px 0px 5px rgb(255, 168, 255));
+}
+.exit {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid magenta;
+    width: 3em;
+    height: 5em;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+.exit:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+img {
+    width: 5em;
+    height: auto;
+} img:hover {
+    filter: drop-shadow(0px 0px 5px pink);
+}
