@@ -27,7 +27,7 @@ body {
 .MENS:hover {
     /* box-shadow: 0px 0px 10px blue; */
     /* filter: drop-shadow(0px 0px 2px rgb(255, 213, 0)); */
-    font-size: 12em;
+    /* font-size: 12em; */
     font-weight: bold;
     /* background-image: url(MEDIA/CAUTION.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; */
     /* background-color: yellow; */
@@ -77,5 +77,20 @@ a {
     position: absolute;
     top: 1em;
     left: calc(43%);
+    text-decoration: underline;
+}
+
+.explainer {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid red; */
+    width: auto;
+    height: auto;
+    line-height: .69em;
+    font-size: 1em;
+    position: absolute;
+    bottom: 1em;
+    left: calc(50%);
+} .explainer:hover {
     text-decoration: underline;
 }
