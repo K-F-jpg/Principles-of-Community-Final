@@ -12,6 +12,7 @@ body {
     /* justify-content: center; */
     justify-content: space-around;
     /* background-image: url(MEDIA/usuhana.png); background-size: cover; background-position: center; background-repeat: no-repeat; */
+    overflow-y: hidden;
 }
 .shelf {
     display: flex;

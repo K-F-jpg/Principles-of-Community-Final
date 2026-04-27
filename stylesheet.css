@@ -26,11 +26,11 @@ body {
 }
 .MENS:hover {
     /* box-shadow: 0px 0px 10px blue; */
-    filter: drop-shadow(0px 0px 2px rgb(255, 213, 0));
+    /* filter: drop-shadow(0px 0px 2px rgb(255, 213, 0)); */
     font-size: 12em;
     font-weight: bold;
     /* background-image: url(MEDIA/CAUTION.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .WOMENS {
     display: flex;
